@@ -73,6 +73,14 @@ use.
 
 ## Part 1: Build the kernel and tools
 
+**To skip the build,** download the pre-built files from the
+[`wireguard-kernel-6.18-r1` release](https://github.com/universam1/rtl8196e-gateway/releases/tag/wireguard-kernel-6.18-r1)
+and verify them against `SHA256SUMS`. They are for the Lidl board on kernel
+6.18.54 only, and they have not been booted on a gateway. The release holds
+`kernel-6.18-wireguard.img` and `wireguard-optional.tar.gz`, which unpacks to
+the `optional/` directory used in Part 3. For another board or kernel line,
+build as below.
+
 ### 1.1 Enable WireGuard in the kernel config
 
 The shipped kernels leave WireGuard out on purpose (see
