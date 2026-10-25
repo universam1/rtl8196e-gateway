@@ -82,6 +82,7 @@ nav:
   - Start here:
     - First installation: docs/getting-started.md
     - Choose a radio mode: docs/radio-options.md
+    - Remote Home Assistant over WireGuard: docs/remote-home-assistant-wireguard.md
     - Upgrade: docs/upgrading.md
     - Use and maintain the gateway: docs/using-the-gateway.md
     - Troubleshooting: docs/troubleshooting.md
